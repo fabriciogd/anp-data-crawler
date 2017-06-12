@@ -33,7 +33,7 @@ export default function (selSemana, selEstado, selCombustivel) {
                         averagePrice: toFloat(cols.eq(2).text()),
                         standardDeviation: toFloat(cols.eq(3).text()),
                         minPrice: toFloat(cols.eq(4).text()),
-					    maxPrice: toFloat(cols.eq(5).text()),
+					              maxPrice: toFloat(cols.eq(5).text()),
                         averageMargin: toFloat(cols.eq(6).text())
                     }
 
